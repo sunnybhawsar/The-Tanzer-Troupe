@@ -1,2 +1,3 @@
 # The-Tanzer-Troupe
-Dance Group of Ujjain Engineering college, Ujjain connecting people interested in dancing.
+
+### Here is only static web-pages.

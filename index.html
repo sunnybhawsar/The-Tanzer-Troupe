@@ -1,0 +1,456 @@
+<script type="text/javascript" src="jquery.js" ></script>
+<script type="text/javascript" >
+$(document).ready(function()
+{	
+	$("#mySidenav").slideUp(0);
+	$("#close").click(function()
+	{
+		$("#mySidenav").slideUp(200);
+	});
+	$("#abt").click(function()
+	{
+		$("#mySidenav").slideUp(80);
+	});	$("#menu").click(function()
+	{
+		$("#mySidenav").slideDown(300);
+	});
+	$(".contacts").click(function()
+	{
+		$("#mySidenav").slideDown(300);
+	});
+});
+</script>
+
+<script type="text/javascript">
+var p=0;
+function scroll()
+{
+window.scrollBy(0,p);
+p++;
+if(p<40)
+{
+setTimeout(scroll,15);
+}
+}
+</script>
+
+<html>
+    <head>
+	       <title> The Tanzer Troupe </title>
+<link rel="icon" href="New/ttt.jpg" type="image/jpg" sizes="20x20">
+<link type="text/css" rel="stylesheet" href="index_css.css" media="screen" />       <!-- CSS -->
+
+  </head>										<!-- Head close -->
+
+  <body id=body>								<!-- Body Open -->
+ <div id="back">
+<div id=uper>									<!-- Uper div open -->
+
+												<!-- Main menu div -->
+<div id="mySidenav" class="sidenav">
+  <div id="contents">
+  <a href="javascript:void(0)" class="closebtn" id="close">&times;</a>
+  <a href="#">Home</a>
+  <span id="abt" onClick="scroll()">About</span>
+  <a href="events.html">Events</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="joinus.html">Join Us</a>
+  </div>
+  <div  id="followus">
+  
+  <p style="margin-top:3%; margin-left:38%;font-size:25px; color:#999999; font-family:"Colonna MT";">
+     Follow us
+  </p>
+  <center>
+  <a href="https://www.facebook.com/The-T%C3%A4nzer-Troupe-600424686794561/" style="font-size:16px;">www.facebook.com/the-tanzer-troupe</a>
+  <a href="https://www.instagram.com/tanzertroupe/" style="font-size:16px;">www.instagram.com/tanzertroupe</a>
+  </center>
+  </div>
+  
+  <div id="contact">
+  <p style="margin-top:3%; margin-left:34%;font-size:25px; color:#999999; font-family:"Colonna MT";">
+     Contact us
+  </p>
+  <center>
+  <p style="font-size:16px; color:#818181; font-family:"Colonna MT";">
+  Sunny Bhawsar: +91 8602135325
+  </p>
+  <p style="font-size:16px; color: #818181; font-family:"Colonna MT";">
+  Nikhil Soni: +91 8962407030
+  </p>
+  </center>
+  </div>
+  
+  </div>														<!-- main menu div close -->
+
+
+<div id=left>
+												<!-- Left div open -->
+<center>
+
+<div id=logo>
+
+<pre style="margin-left:40%; padding-top:8%; color:#FFFFFF; font-size:26px;">
+The
+Tanzer
+ Troupe!
+</pre>
+</div>
+
+<pre style="margin-top:48px;font-size:220%; color:white; font-family:Papyrus; overflow:hidden; text-shadow:#990066 2px 2px;">
+ The
+ Official
+ Dance Crew
+ of
+ Ujjain
+ Engineering
+  College.
+</pre>
+</center>
+
+</div>											<!--Left div close -->
+
+
+
+<div id=right>									<!-- Right div open -->
+
+<span id="menu"></span>
+
+
+<center>
+<div id="image">											<!-- Image div -->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="dance/cddd6.jpg" style="width:100%;height:485px;">
+</div>
+
+<div class="mySlides fade">
+  <img src="dance/cd6.jpg" style="width:100%;height:485px;">
+</div>
+
+<div class="mySlides fade">
+  <img src="dance/cddd2.jpg" style="width:100%;height:485px;">
+</div>
+
+<div class="mySlides fade">
+  <img src="dance/cd10.jpg" style="width:100%;height:485px;">
+</div>
+
+
+</div>
+<br>
+
+<div style="margin-top:55px; text-align:center;">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3500); // Change image every 4 seconds
+}
+</script>
+
+
+</div>
+</center> 
+
+<div id=follow>											<!-- Follow open -->
+
+<a href="https://www.facebook.com/The-T%C3%A4nzer-Troupe-600424686794561/" > <img src="dance/fff.png" class=icons /> </a>
+<a href="https://www.instagram.com/tanzertroupe/" > <img src="dance/iii.png" class=icons /> </a>
+<span class="contacts"><img src="dance/www.png" class=icons /> </span>
+
+</div>													<!-- Follow close -->
+
+</div>													<!-- Right div close -->
+</div>													<!-- uper div close -->
+
+<div id=lower>											<!-- Lower div open -->
+
+<div id="lleft" onClick="fcNav()" onClick="scNav()" >
+<center>
+<p id=about> <b>
+About us
+</b></p>
+
+<p id="us">
+The club "The Tanzer Troupe" has been constituted by the student of "Ujjain Engineering College,Ujjain" under the Supervision and Guidance of Pro. Prerna Sharma (HOD-Physics Dept) to creat a formal platform for the college students to showcase their talent in the field of dance.
+</p>
+</center>
+
+</div>
+
+<div id=lright>
+
+<div id="rl">											<!-- RLeft div open -->
+	
+	<center>
+	</br>
+	</br>
+	</br>
+	</br>
+    <span  class="list" onClick="mNav()" ><div class="box">Mentor</div></span>
+  <br/>
+    <span  class="list" onClick="fNav()" ><div class="box">Founders</div></span>
+  <br/>
+    <span  class="list" onClick="sNav()"><div class="box">Support</div></span>
+  <br/>
+    <span  class="list" onClick="eNav()"><div class="box">Event Partners</div></span>
+  <br/> 
+    <span  class="list" onClick="spoNav()"><div class="box">Sponsors</div></span> 
+  </center>
+
+</div>													<!-- RLeft div close -->
+
+<div class="rr">											<!-- RRight main div open -->
+
+															<!-- Thoughts -->
+<div class="thought fade" id="tht" style="margin-top:180px;height:350px; width:85%; overflow:hidden;">
+<center>
+<p id="tht1" style="color:#FFFFFF; font-size:30px; margin-top:120px;">"Have a Style that has Rythm and Attitude that has Dance"</p>
+</center>
+</div>
+
+															<!-- thoughts -->
+<div id=follow2>											<!-- Follow open -->
+<a href="https://www.facebook.com/The-T%C3%A4nzer-Troupe-600424686794561/" > <img src="dance/fff.png" class=icons2 /> </a>
+<a href="https://www.instagram.com/tanzertroupe/" > <img src="dance/iii.png" class=icons2 /> </a>
+<span class="contacts"><img src="dance/www.png" class=icons /> </span>
+</div>													<!-- Follow close -->
+
+
+<!-- 
+<script>
+showtht();
+var p=1;
+var i=0;
+function showtht()
+{
+var tht = document.getElementsByClassName("thought");
+
+  for(p=1; p<=3; p++)
+  {
+   tht[p].style.display = "none";
+  }
+  i++;
+  if(i>3)
+  {
+  i=1;
+  }
+  tht[i].style.display = "block";
+    
+  setTimeout(showtht,3500);
+ }
+</script>
+
+-->
+</div>													<!-- RRight main div close -->
+
+
+<div class="rrm" id="mmnav">								<!-- RRight (mentor) div open -->
+
+<center>
+<p id="mentor"><b>
+Mentor
+</b></p>
+
+<p style="margin-top:262px; font-size:200%; font-family:'Book Antiqua';color:#ffffff; text-shadow:#000000 2px 2px;"><b>
+Pro. Prerna Sharma </br>
+(HOD-Physics)
+</b></p>
+</center>
+
+<div id=followm>											<!-- Follow open -->
+
+<a href="https://www.facebook.com/The-T%C3%A4nzer-Troupe-600424686794561/" > <img src="dance/fff.png" class=icons2 /> </a>
+<a href="https://www.instagram.com/tanzertroupe/" > <img src="dance/iii.png" class=icons2 /> </a>
+<span class="contacts"><img src="dance/www.png" class=icons /> </span>
+
+</div>													<!-- Follow close -->
+
+
+</div>													<!-- RRight (Mentor) div close -->
+
+<script>
+function mNav() {
+    document.getElementById("mmnav").style.width = "39%";
+	document.getElementById("fSidenav").style.width = "0%";
+	document.getElementById("ssnav").style.width = "0%";
+	document.getElementById("eenav").style.width = "0%";
+	document.getElementById("spnav").style.width = "0%";
+}
+<!--function mcNav() {document.getElementById("mmnav").style.width = "0%";}-->
+
+</script>
+
+														<!-- Founderss -->
+<div class="rrf" id="fSidenav">							
+<center>
+<p id="mentor"><b>
+Founders </b>
+</center>
+
+<div id="f1" class="fd">
+<center>
+<a href="https://www.facebook.com/profile.php?id=100002800080454&tsid=0.010374306933954358&source=result" target='_blank'><div id="pic_f_1" class="f_pic"></div></a>
+Mayank Yadav
+</center>
+</div>
+
+<div id="f2" class="fd">
+<center>
+<a href="https://www.facebook.com/sunny.bhawsar.9?ref_component=mbasic_home_header&ref_page=MChatBuddyListController" target='_blank' ><div id="pic_f_2" class="f_pic"></div></a>
+Sunny Bhawsar
+</center>
+</div>
+
+<div id="f3" class="fd">
+<center>
+<a href="https://www.facebook.com/profile.php?id=100008180054019&tsid=0.31934046442620456&source=result" target='_blank'><div id="pic_f_3" class="f_pic"></div></a>
+Himanshu Vishwakarma
+</center>
+</div>
+
+<div id="f4" class="fd">
+<center>
+<a href="https://www.facebook.com/ipshita.karforma" target='_blank'><div id="pic_f_4" class="f_pic"></div> </a>
+Ipshita Karforma
+</center>
+</div>
+
+
+<div id=followf>											<!-- Follow open -->
+
+<a href="https://www.facebook.com/The-T%C3%A4nzer-Troupe-600424686794561/" > <img src="dance/fff.png" class=icons2 /> </a>
+<a href="https://www.instagram.com/tanzertroupe/" > <img src="dance/iii.png" class=icons2 /> </a>
+<span class="contacts" style="cursor: pointer;"><img src="dance/www.png" class=icons /> </span>
+
+</div>													<!-- Follow close -->
+</div>												<!-- Founders close -->
+
+<script>
+function fNav() {document.getElementById("mmnav").style.width = "0%";
+	document.getElementById("fSidenav").style.width = "39%";
+	document.getElementById("ssnav").style.width = "0%";
+	document.getElementById("eenav").style.width = "0%";
+	document.getElementById("spnav").style.width = "0%";
+}
+<!--function fcNav() {document.getElementById("fSidenav").style.width = "0%";}-->
+
+</script>
+
+
+<div id="ssnav" class="rrs">							<!-- open(Supportttttt) -->
+
+<center>
+<p id="mentor"> <b>
+Supported by </b>
+</center>
+
+<center>
+<img src="New/u1.jpg" id="s_img1" />
+<a href="http://www.uecu.ac.in/" target='_blank'><img src="New/a5.jpg" id="s_img2" /> </a>
+<img src="New/gj.png" id="s_img3" />
+<a href="https://ueuconnect.com/" target='_blank'><img src="New/a5.jpg" id="s_img4" /> </a>
+</center>
+
+<div id=follow2_s>											<!-- Follow open -->
+
+<a href="https://www.facebook.com/The-T%C3%A4nzer-Troupe-600424686794561/" > <img src="dance/fff.png" class=icons2 /> </a>
+<a href="https://www.instagram.com/tanzertroupe/" > <img src="dance/iii.png" class=icons2 /> </a>
+<span class="contacts"><img src="dance/www.png" class=icons /> </span>
+
+</div>													<!-- Follow close -->
+
+</div>										<!-- Close (Supportttt) -->
+<script>
+function sNav() {
+    document.getElementById("mmnav").style.width = "0%";
+	document.getElementById("fSidenav").style.width = "0%";
+	document.getElementById("ssnav").style.width = "39%";
+	document.getElementById("eenav").style.width = "0%";
+	document.getElementById("spnav").style.width = "0%";
+}
+<!--function scNav() {document.getElementById("ssnav").style.width = "0";}-->
+</script>
+
+<div class="rre" id="eenav">							<!-- open(Event part..) -->
+<center>
+<p id="mentor"><b>
+Event Partners </b>
+</center>
+
+<center>
+<img src="dance/banndish.jpg" id="e_img0" alter="Banndish"/>
+<img src="New/mtm.gif" id="e_img1" alter="MTM"/>
+<a href="https://www.mechtechmeet.in/" target='_blank'><img src="New/a5.jpg" id="e_img2"/> </a>
+<img src="New/lit.png" id="e_img3" alter="Litoffer"/>
+<a href="https://www.litoffer.com/" target='_blank'><img src="New/a5.jpg" id="e_img4" /> </a>
+</center>
+
+<div id=follow2_e>											<!-- Follow open -->
+
+<a href="https://www.facebook.com/The-T%C3%A4nzer-Troupe-600424686794561/" > <img src="dance/fff.png" class=icons2 /> </a>
+<a href="https://www.instagram.com/tanzertroupe/" > <img src="dance/iii.png" class=icons2 /> </a>
+<span class="contacts"><img src="dance/www.png" class=icons /> </span>
+
+</div>													<!-- Close (Event part..) -->
+<script>
+function eNav() {
+	document.getElementById("mmnav").style.width = "0%";
+	document.getElementById("fSidenav").style.width = "0%";
+	document.getElementById("ssnav").style.width = "0%";
+	document.getElementById("eenav").style.width = "39%";
+	document.getElementById("spnav").style.width = "0%";
+}
+<!--function ecNav() {document.getElementById("eenav").style.width = "0";}-->
+</script>
+
+<div class="rrsp" id="spnav">								<!-- RRight div open -->
+</div>													<!-- RRight (sponsors) div close -->
+
+<script>
+function spoNav() {
+	document.getElementById("mmnav").style.width = "0%";
+	document.getElementById("fSidenav").style.width = "0%";
+	document.getElementById("ssnav").style.width = "0%";
+	document.getElementById("eenav").style.width = "0%";
+	}
+</script>
+
+</div>													<!-- Lower right close -->
+
+</div>													<!-- Lower div close -->
+</div>													<!-- Back div close -->
+
+<div id="footer">										<!-- Footer div open -->	
+<center>
+</br>
+<p style="margin-top:0px;font-size:15px; color:#FFFFFF;"> © Copyright 2017-19 Tanzertroupe , All Rights Reserved. </p>
+</center>
+<p style=" margin-left:81%; font-size:13px; color:#FFFFFF;">Created by: <a href="https://www.linkedin.com/in/sunny-bhawsar-fullstack/" target="_blank" id="linked">Sunny Bhawsar</a></p>
+</div>													<!-- Footer div close -->
+	
+  </body>
+</html>

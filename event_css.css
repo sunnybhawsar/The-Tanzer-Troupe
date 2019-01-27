@@ -1,0 +1,222 @@
+	#body
+	{
+	 height:2460px; width:100%; position:relative; background-color:#111;
+	}
+
+	.back
+	{
+	height:750px; width:100%; background-image:url(dance/2314.jpg); background-position:center; background-repeat:no-repeat; background-size:100% 100%; margin-top:0px;
+	}
+	
+	#upper
+	{
+	 height:190px; width:100%; background-image:url(dance/23144.jpg); background-position:center; background-repeat:no-repeat; background-size:100% 100%; margin-top:0px;
+ 	}
+
+	#cont0
+	{
+	 height:750px; width:100%; background-image:url(dance/231444.jpg); background-position:center; background-repeat:no-repeat; background-size:100% 100%; margin-top:0px;
+ 	}
+
+	#cont1
+	{
+	 clear:both; height:750px; width:100%; background-image:url(dance/2314.jpg); background-position:center; background-repeat:no-repeat; background-size:100% 100%; margin-top:0px;
+ 	}	
+		
+	#logo
+	{
+	float:left; margin-left:2%; margin-top:15px; height:125px;width:250px; overflow:hidden; background-image:url(dance/mj2.jpg);background-repeat:no-repeat;background-size:100% 100%; background-position:center;
+	}
+	
+	#menu
+	{
+ float:right; margin-right:38px; margin-top:40px; height:80px;width:80px; cursor:pointer; font-size:50px;text-align:center; background-image:url(dance/m1.png); background-repeat:no-repeat; background-position:center; background-size:100% 100%; overflow:hidden;color:#cccccc;
+}
+
+#menu:hover
+{
+border-radius:10% 10%; box-shadow:1px 1px 3px 2px #cccccc;text-align:center;transition:0.3s;
+}
+
+.sidenav {
+    height: 285px;
+    width: 99.5%;
+    position:relative;
+	top:7.2;
+    background-color: #111;
+    overflow: hidden;
+    padding-top: 60px;
+	font-family:'Candara';
+	}
+
+#followus
+{
+float:left; margin-top:4%; margin-left:0.1%; height:60%; width:38%; font-size:24px;
+}
+
+#contact
+{
+float:left; margin-top:4%; margin-left:3%; height:60%; width:40%; font-size:24px;
+}
+
+#contents
+{
+float:left; height:100%; width:15%;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+	
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 80px;
+    margin-left: 50px;
+	float:right;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+#ev007
+{
+clear:both; padding-top:20px; height:550px; width:80%;
+}
+.c007
+{
+clear:both; margin-top:0px; height:70px; width:80%; background-color:#111;;
+}
+
+#ev006
+{
+clear:both; padding-top:20px; height:550px; width:80%;
+}
+.c006
+{
+clear:both; margin-top:0px; height:70px; width:80%; background-color:#111;;
+}
+
+#ev005
+{
+clear:both; padding-top:20px; height:550px; width:80%;
+}
+.c005
+{
+clear:both; margin-top:0px; height:70px; width:80%; background-color:#111;;
+}
+
+
+#ev004
+{
+clear:both; padding-top:20px; height:550px; width:80%;
+}
+.c004
+{
+clear:both; margin-top:0px; height:70px; width:80%; background-color:#111;;
+}
+
+#ev003
+{
+padding-top:20px; clear:both; height:630px; width:65%;
+}
+.c003
+{
+clear:both; margin-top:0px; height:70px; width:65%; background-color:#111;;
+}	
+
+
+#ev002
+{
+padding-top:20px; clear:both; height:630px; width:65%;
+}
+.c002
+{
+clear:both; margin-top:0px; height:70px; width:65%; background-color:#111;;
+}	
+
+#ev001
+{
+clear:both; padding-top:20px; height:550px; width:80%;
+}
+
+#ev09
+{
+ float:left; padding-top:20px; height:654px; width:40%; margin-left:10%;
+}
+#ev099
+{
+ float:left; padding-top:20px; height:654px; width:40%;
+}
+.c0
+{
+clear:both; margin-top:0px; height:70px; width:80%;background-color:#111;
+}
+
+#ev1
+{
+clear:both; padding-top:110px; height:470px; width:80%;
+}
+.c
+{
+clear:both; margin-top:0px; height:70px; width:80%; background-color:#111;;
+}
+
+#ev2
+{
+clear:both; height:650px; width:65%; border:#000000 1px solid;
+}
+.c2
+{
+clear:both; margin-top:0px; height:70px; width:65%; background-color:#111;;
+}
+
+#ev3
+{
+padding-top:20px; clear:both; height:630px; width:65%;
+}
+.c3
+{
+clear:both; margin-top:0px; height:70px; width:65%; background-color:#111;;
+}
+
+.cont4
+{
+ clear:both; height:40px; width:100%; background-image:url(dance/12342.jpg); background-position:center; background-repeat:no-repeat; background-size:100% 100%;
+}
+
+#footer
+{
+clear:both; height:90px;width:100%; background-color:black; border-right:solid 1px black;border-left:solid 1px black;
+}
+
+#manit
+{
+color:lightblue; 
+}
+#manit:hover
+{
+color:white; transition:0.3s;
+}
+
+#linked
+{
+  color: #FFFFFF; text-decoration: none; transition: 0.5s;
+}
+#linked:hover
+{
+  color: grey;
+}

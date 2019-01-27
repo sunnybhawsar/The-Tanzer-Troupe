@@ -1,0 +1,285 @@
+<html>
+
+<head>
+
+<title>Join Us</title>
+<link rel="icon" href="New/ttt.jpg" type="image/jpg" sizes="20x20">
+
+	<style type="text/css">
+	#cont
+	{
+	 height:100px; width:40%; margin-top:220px;
+	}
+	
+	#audi
+	{
+	 color:#FFFFFF; font-size:350%; font-family:Tempus Sans ITC; padding-top:30px;
+	}
+	
+	#cs
+	{
+	color:#FFFFFF; font-size:36px; font-family:Chiller; margin-top:10;
+	}
+	
+	.attrib
+	{
+	color:#FFFFFF; font-size:22px;
+	}
+	
+	.txt
+	{
+	width:200px;
+	}
+
+	#footer
+	{
+	float:right; height:80px;width:100%; margin-top:250px; background-color:darkslateblue;
+	}
+	
+span
+{
+font-size:13px; color:red;
+}
+</style>
+
+<script type="text/javascript">
+
+ex1=/^[a-zA-Z]{2,20}[ ]{0,1}[a-zA-Z]{0,20}[ ]{0,1}[a-zA-Z]{0,20}$/;
+ex11=/^[a-z ,()A-Z]{1,20}$/;
+ex2=/^[0-9]{10,10}$/;
+ex3=/^[a-zA-Z0-9._]{1,30}[@]{1}[A-Za-z0-9_.]{1,20}[.]{1}[A-Za-z.]{1,10}$/;
+
+function func1()
+{
+eename=document.getElementById("name").value;
+
+if(!ex1.test(eename))
+{
+if(eename=="")
+{
+document.getElementById("spname").innerHTML="*Required";
+}
+else
+{
+document.getElementById("spname").innerHTML="*Use Alphabets Only";
+}
+}
+else
+{
+document.getElementById("spname").innerHTML="";
+}
+
+}
+
+
+function func2()
+{
+eeccity=document.getElementById("ccity").value;
+
+if(eeccity=="")
+{
+document.getElementById("spccity").innerHTML="";
+}
+else
+{
+if(!ex11.test(eeccity))
+{
+document.getElementById("spccity").innerHTML="*Use Alphabets Only";
+}
+else
+{
+document.getElementById("spccity").innerHTML="";
+}
+}
+
+}
+
+
+
+
+function func4()
+{
+eemob=document.getElementById("mob").value;
+
+if(!ex2.test(eemob))
+{
+if(eemob=="")
+{
+document.getElementById("spmob").innerHTML="*Required";
+}
+else
+{
+document.getElementById("spmob").innerHTML="*Use 10 Digits only";
+}
+}
+else
+{
+document.getElementById("spmob").innerHTML="";
+}
+
+}
+
+
+function func5()
+{
+eeemail=document.getElementById("email").value;
+
+if(eeemail=="")
+{
+document.getElementById("spemail").innerHTML="";
+}
+else
+{
+if(!ex3.test(eeemail))
+{
+document.getElementById("spemail").innerHTML="*Invalid";
+}
+else
+{
+document.getElementById("spemail").innerHTML="";
+}
+}
+
+}
+
+</script>
+	
+      
+
+
+</head>
+	
+<body style="background-color:#000000">
+	<center>
+	<p style="color:#CCCCCC; font-size:21px; background-color:darkslateblue;">Submit Your Details</p>					    
+	</center>
+	 
+	<div id="container" style="width:100%; height:650px;">
+	
+	<div id="cont1" style="width:100%; height:550px;">
+	<form id="frm" name="frm" method="post" action="">
+	<table style="width:50%; height:100%;">
+	<tr>
+<td><pre class="attrib">
+Full Name</pre></td>
+<td><input type="text"  id="name" name="name" class="txt" placeholder="Enter Full Name" onblur="func1()"/> <span id="spname"></span></td>
+	</tr>
+	
+	<tr><td><pre class="attrib">College</pre></td>
+	<td>
+	<select id="clg" name="clg" >
+	<option>Ujjain Engineering College,Ujjain</option>
+	<option>Mahakal Institute of Technology,Ujjain</option>
+	<option>Vikram University,Ujjain</option>
+	<option>Other</option>
+	</select>
+	</td></tr>
+	
+	<tr>
+	<td >
+	<pre class="attrib">Semester</pre></td>
+	<td>
+	<select id="sem" name="sem" >
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+	<option>5</option>
+	<option>6</option>
+	<option>7</option>
+	<option>8</option>
+	<option>Other</option>
+	</select>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<pre class="attrib">Branch</pre></td>
+	<td>
+	<select id="branch" name="branch">
+	<option>Chemical Engineering</option>
+	<option>Civil Engineering</option>
+	<option>Computer Science and Engineering</option>
+	<option>Electronics and Communication Engineering</option>
+	<option>Electrical Engineering</option>
+	<option>Mechanical Engineering</option>
+	<option>Other</option>
+	</select>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<pre class="attrib">Current City</pre></td>
+	<td>
+	<input type="text" id="ccity" name="ccity" class="txt" placeholder="Enter Your Current City.." onblur="func2()"/>
+<span id="spccity"></span>	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<pre class="attrib">Home Town</pre></td>
+	<td>
+	<input type="text" id="hcity" name="hcity" class="txt" placeholder="Enter Your Home Town" onblur="func3()"/>
+<span id="sphcity"></span>	</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<pre class="attrib">Mobile</pre></td>
+	<td>
+	<input type="text" id="mob" name="mob" class="txt" placeholder="Should be of 10 Digits." onblur="func4()"/>
+<span id="spmob"></span></td>
+	</tr>
+	
+	<tr>
+	<td>
+	<pre class="attrib">Email Address</pre></td>
+	<td>
+	<input type="text" id="email" name="email" class="txt" placeholder="Enter Your Email Address" onblur="func5()"/>
+<span id="spemail"></span></td>
+	</tr>
+	</table>
+	
+	<table>
+	<tr>
+	<td>
+<pre class="attrib">
+Which Dance form do you like the Most?  
+<input type="text" id="dform" name="dform" placeholder="Enter name of a Dance form"/>
+</pre>
+	</td>
+	</tr>
+	
+	<tr>
+	<td>
+<pre class="attrib">
+About You
+<textarea cols="50" rows="2" id="abt" name="abt"  style="margin-top:0px; " placeholder="About You">
+</textarea>
+</pre>
+	</td>
+	</tr>
+	
+	</table>
+	
+<center>
+<input type="submit" id="submit" name="submit" value="Submit" style="margin-top:20px;
+width:70px; height:35px;"/>
+</center>
+</form>
+</div>
+
+
+<div id="footer">										<!-- Footer div open -->	
+<center>
+<br/>
+<p style=" margin-top:0px;font-size:18px; color:#FFFFFF;"> © Copyright 2017-18 Tanzertroupe , All Rights Reserved. </p>
+</center>
+
+</div>													<!-- Footer div close -->
+
+</div>
+	</body>
+</html>

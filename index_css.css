@@ -1,0 +1,462 @@
+#back
+{
+height:1500px;width:100%;border-right:solid 1px black;border-left:solid 1px black;
+}
+#uper
+{
+height:749px;width:100%; background-color:#000000;
+}
+
+#left
+{
+float:left; height:100%;width:21.9%;border-right:solid 3px black; border-bottom:groove 1px #000000; background-image:url(dance/23l.jpg);background-position:center;background-repeat:no-repeat; backgroud-size:100% 100%;
+}
+
+#logo
+{
+margin-top:8%; height:18%;width:100%; background-color:#000000;  background-image:url(dance/mj2.jpg); background-repeat:no-repeat; background-size:100% 100%; background-position:center;
+}
+
+#lo
+{
+margin:1%; height:98%; width:60%;
+}
+
+#right
+{
+float:left; height:100%;width:77.7%; background-image:url(dance/23.jpg);background-position:center;background-repeat:no-repeat;backgroud-size:100% 100%;  border-bottom:groove 1px #000000;
+
+}
+
+#menu
+{
+float:right; margin-top:4%;cursor: pointer; margin-right:2.8%; height:11%;width:7%; cursor:pointer; font-size:50px;text-align:center; background-image:url(dance/m1.png); background-repeat:no-repeat; background-position:center; background-size:100% 100%; overflow:hidden;color:#cccccc;
+}
+
+#menu:hover
+{
+border-radius:10% 10%; box-shadow:1px 1px 3px 2px #cccccc;text-align:center;transition:0.3s;
+}
+
+#abt
+{
+  cursor: pointer;
+}
+
+#followus
+{
+float:left; margin-top:4%; margin-left:4%; height:60%; width:33%;
+}
+
+#contact
+{
+float:left; margin-top:4%; margin-left:7%; height:60%; width:40%; 
+}
+
+.contacts
+{
+  cursor: pointer;
+}
+
+.sidenav {
+    height: 330px;
+    width:99.5%;
+    position:relative;
+    top:7.2;
+    background-color: #111;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+#contents
+{
+float:left; height:100%; width:15%;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav span
+{
+	padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+.sidenav span:hover, .offcanvas span:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 52px;
+    margin-left: 50px;
+	float:right;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+   margin-top:160px; height:420px;width:99%;
+  position: relative;
+
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}
+
+#follow
+{
+ margin-top:10px; margin-left:80%; height:9%;width:19.2%;
+}
+
+.icons
+{
+padding-top:5%; padding-left:4%; height:60%;width:27%;
+}
+
+#lower
+{
+clear:both; height:749px;width:100%; background-color:#000000;
+}
+
+#lleft
+{
+float:left; height:100%;width:21.9%;border-right:solid 3px black; border-bottom:groove 1px #000000; background-image:url(dance/23l.jpg);background-position:center;background-repeat:no-repeat; backgroud-size:100% 100%;
+}
+
+#about
+{
+font-size:255%; font-family:Papyrus; color:#000000; text-shadow:#CCCCCC 1px 1px; text-decoration:none;
+}
+
+#us
+{
+margin-top:24%; text-decoration:none; color:#FFFFFF; font-size:155%; font-family:'Goudy Old Style';
+}
+
+#lright
+{
+float:left; height:100%;width:77.7%; background-image:url(dance/.jpg);background-position:center;background-repeat:no-repeat;backgroud-size:100% 100%;  border-bottom:groove 1px #000000;
+}
+
+#rl
+{
+float:left; height:100%;width:50%; background-image:url(dance/23r.jpg);background-position:center;background-repeat:no-repeat; backgroud-size:100% 100%;
+}
+
+.rr
+{
+float:left; height:100%;width:50%; background-image:url(dance/23r.jpg);background-position:center;background-repeat:no-repeat; backgroud-size:100% 100%;
+}
+
+.rrm {
+    width:0;
+    z-index: 1;
+    right:5;
+    overflow:hidden;
+    transition: 0.5s;
+	position:absolute;
+	height:749px; background-image:url(dance/23r.jpg);background-position:center;background-repeat:no-repeat; backgroud-size:100% 100%;
+}
+
+@media screen and (max-height: 100%) {
+
+}
+
+
+.rrf {
+    width:0;
+    z-index: 1;
+    right:5;
+    overflow-x: hidden;
+    transition: 0.5s;
+	position:absolute;
+	height:749px; background-image:url(dance/23r.jpg);background-position:center;background-repeat:no-repeat; backgroud-size:100% 100%;
+}
+
+@media screen and (max-height: 100%) {
+
+}
+
+.rrs {
+    width:0;
+    z-index: 1;
+    right:5;
+    overflow-x: hidden;
+    transition: 0.5s;
+	position:absolute;
+	height:749px; background-image:url(dance/23r.jpg);background-position:center;background-repeat:no-repeat; backgroud-size:100% 100%;
+}
+
+@media screen and (max-height: 100%) {
+
+}
+
+
+.rre {
+    width:0;
+    z-index: 1;
+    right:5;
+    overflow: hidden;
+    transition: 0.5s;
+	position:absolute;
+	height:749px; background-image:url(dance/23r.jpg);background-position:center;background-repeat:no-repeat; backgroud-size:100% 100%;
+}
+
+@media screen and (max-height: 100%) {
+
+}
+
+.rrsp {
+    width:0;
+    z-index: 1;
+    right:5;
+    overflow-x: hidden;
+    transition: 0.5s;
+	position:absolute;
+	height:749px; background-image:url(dance/23r.jpg);background-position:center;background-repeat:no-repeat; backgroud-size:100% 100%;
+}
+
+@media screen and (max-height: 100%) {
+
+}
+
+
+#mentor
+{
+font-size:190%; font-family:Papyrus; color:#FFFFFF; text-shadow:#000000 1px 1px; text-decoration:none;
+}
+
+
+#pic
+{
+ margin-top:145px; height:27%;width:40%;background-color:#FFFFFF;border:solid 1px #000000; border-radius:40% 40%;
+}
+
+.fd
+{
+height:18%; width:35%; color:#FFFFFF;
+}
+
+#f1
+{
+margin-top:85px; margin-left:32.6%;
+}
+#f2
+{
+float:left; margin-top:40px; margin-left:4%;
+}
+#f3
+{
+float:left; margin-top:40px; margin-left:23%; 
+}
+#f4
+{
+clear:both; float:left; margin-top:40px; margin-left:32.6%;
+}
+
+.f_pic
+{
+height:60%;width:55%;background-color:#FFFFFF;border:solid 1px #000000; border-radius:40% 40%;
+}
+
+#pic_f_1
+{
+ background-image:url(f/mayank.jpg); background-position:center; background-repeat:no-repeat; background-size:100% 100%; overflow:hidden;transition:0.3s;
+ }
+ #pic_f_1:hover
+{
+ background-image:url(f/mayankfb.jpg); background-position:center; background-repeat:no-repeat; background-size:100% 100%; overflow:hidden;
+ }
+
+#pic_f_2
+{
+  background-image:url(f/sunny.jpg); background-position:center; background-repeat:no-repeat; background-size:100% 100%; overflow:hidden;transition:0.3s;
+}
+#pic_f_2:hover
+{
+ background-image:url(f/sunnyfb.jpg); background-position:center; background-repeat:no-repeat; background-size:100% 100%; overflow:hidden;
+ }
+ 
+#pic_f_3
+{
+ background-image:url(f/himanshu.jpg); background-position:center; background-repeat:no-repeat; background-size:100% 100%; overflow:hidden;transition:0.3s;
+}
+#pic_f_3:hover
+{
+ background-image:url(f/himanshufb.jpg); background-position:center; background-repeat:no-repeat; background-size:100% 100%; overflow:hidden;
+ }
+ 
+#pic_f_4
+{
+  background-image:url(f/ipshita.jpg); background-position:center; background-repeat:no-repeat; background-size:100% 100%; overflow:hidden; transition:0.3s;
+}
+#pic_f_4:hover
+{
+ background-image:url(f/ipshitafb.jpg); background-position:center; background-repeat:no-repeat; background-size:100% 100%; overflow:hidden;
+ }
+ 
+ .list
+ {
+ font-size:173%; cursor: pointer; text-decoration:none; font-family:'MV Boli';color:#FFFFFF;
+ }
+  								/* effect on list */
+  
+ .list:hover
+ {
+  font-size:185%; color:#CCCCCC;
+ }
+
+ .box
+ {
+  height:14%; width:100%;  text-align:center; 
+ }
+ 								/* effect on list's box */
+ 
+ .box:hover
+ {
+  height:14%; width:100%;  text-align:center; transition:0.1s;
+ }
+
+#follow2
+{
+ margin-top:140px; margin-left:64.2%; height:9.2%;width:34.6%;
+}
+
+#followm
+{
+ margin-top:268px; margin-left:64.2%; height:9.2%;width:34.6%;
+}
+
+#followf
+{
+ margin-top:382px; margin-left:64.2%; height:9.2%;width:34.6%;
+}
+
+#follow2_s
+{
+ margin-top:50px; margin-left:64.2%; height:9.2%;width:34.6%;
+}
+
+#follow2_e
+{
+ margin-top:30px; margin-left:64.2%; height:9.2%;width:34.6%;
+}
+
+#s_img1
+{
+ margin-left:10%; margin-top:55px; height:200px; width:50%;
+}
+#s_img2
+{
+  margin-bottom:72px; height:45px; width:15%;
+}
+#s_img3
+{
+ margin-left:10%; margin-top:60px; height:200px; width:50%;
+}
+#s_img4
+{
+  margin-bottom:60px;height:45px; width:15%;
+}
+
+
+
+#e_img0
+{
+ margin-top:20px; height:150px; width:45%;
+}
+#e_img1
+{
+ margin-left:15%; margin-top:35px; height:150px; width:45%;
+}
+#e_img2
+{
+  margin-bottom:50px; height:45px; width:15%;
+}
+#e_img3
+{
+ margin-left:15%; margin-top:35px; height:150px; width:45%;
+}
+#e_img4
+{
+  margin-bottom:50px;height:45px; width:15%;
+}
+
+
+.icons2
+{
+padding-top:5%; padding-left:3.5%; height:61%;width:26.6%;
+}
+
+#footer
+{
+clear:both; height:80px;width:100%; background-color:black; border-right:solid 1px black;border-left:solid 1px black;
+}
+
+#linked
+{
+  color: #FFFFFF; text-decoration: none; transition: 0.5s;
+}
+#linked:hover
+{
+  color: grey;
+}
